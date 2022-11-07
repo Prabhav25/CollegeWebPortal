@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student portal</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">we will be using these to get icons like hamburger or close icon -->
+
+    <!-- now for  fonts we will take them from google fonts , so we choose font Montserrat so we add many fonts of Montserrat of different thickness-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;800;900&display=swap"
+        rel="stylesheet">
+
+    <!-- to add a slider in the testimonials we will use SWIPER JS so go to swiperjs.com tehn click on get started then go to use swiper with CDN and copy CSS from there-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"> <!--to add social media icons in the footer section-->
+
+</head>
+
+<body>
+    <!-- so lets firstly start with navbar -->
+    <nav>
+        <div class="container , nav__container">
+            <a href="index.html">
+                <h4>GetSetGo</h4>
+            </a>
+            <!--giving logo GrtSetGo so when we click on the logo it takes us to the page again so we give link index.html-->
+            <ul class="nav__menu">
+                <li><a href="https://www.upes.ac.in/industry-connect" target="_blank">Industry connect</a></li>
+                <li><a href="https://www.upes.ac.in/contact-us" target="_blank">Contact</a></li>
+                <li><a href="login1.php" target="_blank">LogIn</a></li>
+            </ul>
+
+
+            <!-- now we create buttons only for tablets or mobile phones ,and the buttons will be visible only for tablets and mobile phones  -->
+            <!-- for tablets we will have open menu button only  -->
+            <!-- icons we will take from https://iconscout.com/unicons/explore/line  -->
+            <input type="image" src="icons\menu.svg" id="open-menu-btn" name="menu" width="20">
+            <input type="image" src="icons\close.svg" id="close-menu-btn" name="menu" width="20">
+
+
+
+        </div>
+    </nav>
+
+    <!--now lets define header -->
+    <header>
+        <div class="container header__container">
+            <div class="header__left">
+                <h2>UPES is one of the best universities and the first Indian university to be awarded QS 5 Stars for
+                    Employability.</h2>
+                <p>UPES is well known for academic excellence and well-equipped infrastructure which offers various
+                    courses in Law, Management, Business, Engineering, Health Sciences and Technology, Planning and
+                    Architecture, Design, Modern Media and Liberal Studies</p>
+                <a href="https://www.upes.ac.in/download" target="_blank" class="btn btn-primary">Get Started</a>
+            </div>
+            <div class="header__right">
+                <div class="header__right-image">
+                    <img src="images\UPES logo.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!--now lets see categories section-->
+    <section class="categories">
+        <div class="container categories__container">
+            <div class="categories__left">
+                <h1>Categories</h1>
+                <p>UPES offers you a wide range of categories which provides you the vast knowledge of each domain.</p>
+                <a href="https://www.upes.ac.in/download" target="_blank" class="btn">Learn more</a>
+            </div>
+            <div class="categories__right">
+                <article class="category">
+                    <h5>Law</h5>
+                    <p>UPES School of Law combines a carefully crafted curriculum to prepare students who can contribute towards shaping the legal landscape</p>
+                    <a href="https://www.upes.ac.in/schools/school-of-law" target="_blank" class="btns">
+                        <h6>Learn more</h6>
+                    </a>
+                </article>
+                <article class="category">
+                    <h5>Computer Science</h5>
+                    <p>UPES School of Computer Science concentrates on the real-world applicability and social impact of technology in its carefully crafted curriculum</p>
+                    <a href="https://www.upes.ac.in/schools/school-of-computer-science" target="_blank" class="btns">
+                        <h6>Learn more</h6>
+                    </a>
+                </article>
+                <article class="category">
+                    <h5>Business</h5>
+                    <p>UPES School of Business equips students with pragmatic decision-making abilities to improve the  way the world does business</p>
+                    <a href="https://www.upes.ac.in/schools/school-of-business" target="_blank" class="btns">
+                        <h6>Learn more</h6>
+                    </a>
+                </article>
+                <article class="category">
+                    <h5>Engineering</h5>
+                    <p>UPES School of Engineering have enabled us to offer futuristic education to engineering
+                        aspirants.It offers future ready programs in many engineering fields</p>
+                    <a href="https://www.upes.ac.in/schools/school-of-engineering" target="_blank" class="btns">
+                        <h6>Learn more</h6>
+                    </a>
+                </article>
+                <article class="category">
+                    <h5>Health Sciences and Technology</h5>
+                    <p>UPES School of Health Sciences and Technology nurtures a culture of research and education that
+                        prepares students for tomorrow</p>
+                    <a href="https://www.upes.ac.in/schools/school-of-health-sciences-and-technology" target="_blank"
+                        class="btns">
+                        <h6>Learn more</h6>
+                    </a>
+                </article>
+                <article class="category">
+                    <h5>Design</h5>
+                    <p>UPES School of Design nurtures responsible designers who possess cultural understanding, and have
+                        broad-based innovation capabilities</p>
+                    <a href="https://www.upes.ac.in/schools/school-of-design" target="_blank" class="btns">
+                        <h6>Learn more</h6>
+                    </a>
+                </article>
+                <article class="category">
+                    <h5>Modern Media</h5>
+                    <p>UPES School of Modern Media imparts new-age media literacy to students about varied forms of
+                        information dissemination</p>
+                    <a href="https://www.upes.ac.in/schools/school-of-modern-media" target="_blank" class="btns">
+                        <h6>Learn more</h6>
+                    </a>
+                </article>
+                <article class="category">
+                    <h5>Liberal Studies</h5>
+                    <p>UPES School of Liberal Studies train the students to develop capacities to collaborate across
+                        disciplines and to practise lifelong learning.</p>
+                    <a href="https://www.upes.ac.in/schools/school-of-liberal-studies" target="_blank" class="btns">
+                        <h6>Learn more</h6>
+                    </a>
+                </article>
+                <article class="category">
+                    <h5>School for Life</h5>
+                    <p>UPES School of Life seeks to facilitate a broad-based learning experience of all students
+                        enrolled in the various programmes across the specialisms on offer by its seven Schools</p>
+                    <a href="https://www.upes.ac.in/school-for-life" target="_blank" class="btns">
+                        <h6>Learn more</h6>
+                    </a>
+                </article>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- now lets start milestones section -->
+    <section class="milestones">
+        <h2>UPES Milestones</h2>
+        <div class="container milestones__container">
+            <article class="milestone">
+                <div class="milestone__image">
+                    <img src="images\FundedProjects_banner.png" alt="">
+                </div>
+                <div class="milestone__info">
+                    <h4>Research and Projects</h4>
+                    <p>From reaching triple the global average in research output to faculty who are among highly cited
+                        researchers in the world, here is a glimpse of the university’s magnificent accomplishments in
+                        research over the years.</p>
+                    <a href="https://blog.upes.ac.in/upes-achieves-record-breaking-milestones-in-research/"
+                        target="_blank" class="btn btn-primary">Learn more</a>
+                </div>
+            </article>
+            <article class="milestone">
+                <div class="milestone__image">
+                    <img src="images\Publications-2.jpg" alt="">
+                </div>
+                <div class="milestone__info">
+                    <h4>Publications</h4>
+                    <p>UPES has publications with International collaboration and provides you with one of the best
+                        publications in different fields.</p>
+                    <a href="https://research.upes.ac.in/publications/" target="_blank" class="btn btn-primary">Learn
+                        more</a>
+                </div>
+            </article>
+        </div>
+    </section>
+
+
+    <!-- now we will see the testimonials -->
+    <section class="container testimonials__container mySwiper">
+        <!--we have to add class mySwiper to make the sliding-->
+        <h2>Student Testimonials</h2>
+        <div class="swiper-wrapper">
+            <!--to add sliding we have to use class swiper-wrapper-->
+            <article class="testimonial swiper-slide">
+                <!--swiper-slide is a swiperjs class used to do sliding operation-->
+                <div class="avatar">
+                    <img src="images\student avatar.png" alt="">
+                </div>
+                <div class="testimonial__info">
+                    <h5>Muskan Handa</h5>
+                    <small>Student</small>
+                </div>
+                <div class="testimonial__body">
+                    <p>B Tech CSE student placed at Microsoft</p>
+                    <a href="https://www.instagram.com/tv/Cd_AKvEDKm5/?utm_source=ig_web_copy_link" target="_blank"
+                        class="btns">Sharing views</a>
+                </div>
+            </article>
+            <article class="testimonial swiper-slide">
+                <div class="avatar">
+                    <img src="images\student avatar.png" alt="">
+                </div>
+                <div class="testimonial__info">
+                    <h5>Karan Bhandari</h5>
+                    <small>Student</small>
+                </div>
+                <div class="testimonial__body">
+                    <p>B Tech CSE student becomes India's youngest Ethical Hacker</p>
+                    <a href="https://www.instagram.com/p/CgO9_MqA-Y9/?utm_source=ig_web_copy_link" target="_blank"
+                        class="btns">Sharing views</a>
+                </div>
+            </article>
+            <article class="testimonial swiper-slide">
+                <div class="avatar">
+                    <img src="images\student avatar.png" alt="">
+                </div>
+                <div class="testimonial__info">
+                    <h5>Nandini Asthana</h5>
+                    <small>Student</small>
+                </div>
+                <div class="testimonial__body">
+                    <p>BA in Journalism and Mass Communication student honoured to interview New Zealand's Prime
+                        Minister</p>
+                    <a href="https://www.instagram.com/tv/CgEh7_arMZD/?utm_source=ig_web_copy_link" target="_blank"
+                        class="btns">Sharing views</a>
+                </div>
+            </article>
+            <article class="testimonial swiper-slide">
+                <div class="avatar">
+                    <img src="images\student avatar.png" alt="">
+                </div>
+                <div class="testimonial__info">
+                    <h5>Mili Manchanda</h5>
+                    <small>Student</small>
+                </div>
+                <div class="testimonial__body">
+                    <p>School of Health Sciences and Technology student placed at Healthians as a nutritionist</p>
+                    <a href="https://www.instagram.com/tv/CegDgyxjFEJ/?utm_source=ig_web_copy_link" target="_blank"
+                        class="btns">Sharing views</a>
+                </div>
+            </article>
+            <article class="testimonial swiper-slide">
+                <div class="avatar">
+                    <img src="images\student avatar.png" alt="">
+                </div>
+                <div class="testimonial__info">
+                    <h5>Pratik Kshirsagar</h5>
+                    <small>Student</small>
+                </div>
+                <div class="testimonial__body">
+                    <p>MBA, School of Business student placed at Accenture- Strategy & Consulting</p>
+                    <a href="https://www.instagram.com/tv/CXlYharD6kV/?utm_source=ig_web_copy_link" target="_blank"
+                        class="btns">Sharing views</a>
+                </div>
+            </article>
+        </div>
+        <div class="swiper-pagination"></div>
+        <!--for slider we have small small circles so when we click on them it slides-->
+    </section>
+
+    <!-- now lets see the footer  -->
+    <footer>
+        <div class="container footer__container">
+            <div class="footer__1">
+                <a href="index.html" class="footer__logo">
+                    <h4>GetSetGo</h4>
+                </a>
+                <p>Begin your life in UPES situated in the lap of nature and make a successful career studying from the best qualified faculties.</p>
+            </div>
+            <div class="footer__2">
+                <h4>Permalinks</h4>
+                <ul class="permalinks">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="https://www.upes.ac.in/download" target="_blank">Categories</a></li>
+                    <li><a href="timetable.html">LogIn</a></li>
+                    <li><a href="timetable.html">Sign up</a></li>
+                </ul>
+            </div>
+            <div class="footer__3">
+                <h4>Primacy</h4>
+                <ul class="privacy">
+                    <li><a href="https://www.upes.ac.in/student#affairsSection" target="_blank">Student Affairs</a></li>
+                    <li><a href="https://www.upes.ac.in/media/7986/fee-refud-policy-ay-2022-23-revised-as-per-ugc.pdf" target="_blank">Fee Refund Policy</a></li>
+                    <li><a href="https://www.upes.ac.in/aspiring-students#helpSection" target="_blank">Help Topics</a></li>
+                </ul>
+            </div>
+            <div class="footer__4">
+                <ul>
+                    <li><a href="https://www.upes.ac.in/contact-us" target="_blank"><h4>Contact us</h4></a></li>
+                    <p>TOLL FREE: 18001028737</p>
+                    <p>Email:enrollments@upes.ac.in</p>
+                </ul>
+                <ul class="footer__socials">
+                    <li><a href="https://www.facebook.com/UPESddnuk" target="_blank"><i class="uil uil-facebook-f"></i></a></li>
+                    <li><a href="https://www.instagram.com/upes_dehradun/" target="_blank"><i class="uil uil-instagram-alt"></i></a></li>
+                    <li><a href="https://twitter.com/UPESDehradun" target="_blank"><i class="uil uil-twitter"></i></a></li>
+                    <li><a href="https://www.linkedin.com/school/upesdehradun" target="_blank"><i class="uil uil-linkedin-alt"></i></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer__copyright">
+            <small>Copyright &copy; GetSetGo</small> <!--&copy is used to add copyright symbol-->
+        </div>
+    </footer>
+
+
+
+
+    <!---- script tags for swiper js and index.js file linking --------->
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <!--to add a slider we have to copy the css link and script from swiperjs.com-->
+    <script src="js\index.js"></script>
+
+
+    <!---------------- for slider TESTIMONIALS --------------------------- -->
+    <script>/*for slider in testimonials*/
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 1, /*for mobile*/
+            spaceBetween: 30,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+
+            //when screen size is >=600px
+            breakpoints: { //so at this breakpoint
+                600: {
+                    slidesPerView: 3 //so in big screens we will keep 2 slides per view
+                }
+            }
+        });
+    </script>
+</body>
+
+</html>
