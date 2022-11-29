@@ -12,7 +12,83 @@ So in order to make implement this model we have used a proper login system in w
 
 ## 3)Motivation
 
-Nowadays students bunk their classes because of the unsuitable time and the teaching style of the faculty is not appealing. So in order to solve this big issue we have designed this web portal.
+Nowadays students bunk their classes because of the unsuitable time or students don't find the teaching style of the faculty appealing. So in order to solve this big issue we have designed this web portal where each student will have the privilege to choose their preffered faculty and the time slots acording to their comfortability. 
+
+## 4)Flow Diagram
+
+![alt text](https://github.com/Prabhav25/Prabhav25.github.io-CollegeWebPortal/blob/main/Workflow%20dfd.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
