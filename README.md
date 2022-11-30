@@ -2,7 +2,7 @@
 
 ## 1)Abstract
 
-We all know that when you are developing a software then one of the most important thing is the user interface. It is simply because user interface is the first impression that a user experiences. So in order to develop an interest we have to make an interface that looks appealing to the user. So here I have created a fully functional web portal for my college UPES which gives you a complete information and overview about the college. So a lot of students complain about their busy schedule, unsuitable class timings and not studying by their preffered faculty. So we have created a mechanism in which a student can easily set its own timetable according to its comfortability. It will solve a big problem of many students studying in different educational institutions.
+We all know that when you are developing a software then one of the most important thing is the user interface. It is simply because user interface is the first impression that a user experiences. So in order to develop an interest we have to make an interface that looks appealing to the user. So here I have created a fully functional web portal for my college UPES which gives you a complete information and overview about the college. So a lot of students complain about their busy schedule, unsuitable class timings and being not able to be taught by their preffered faculty. So we have created a mechanism in which a student can easily set its own timetable according to its comfortability. It will solve a big problem of many students studying in different educational institutions.
 
 <b><i>Keywords: Web Development, HTML, CSS, University, Faculty, Student, Web Portal, JavaScript</i></b>
 
